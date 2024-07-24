@@ -6,10 +6,10 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MyNft is ERC721, ERC721URIStorage, Ownable {
+contract MyNFT is ERC721, ERC721URIStorage, Ownable {
 	uint256 private _nextTokenId;
 
-	constructor() ERC721("MyNFTHuascar", "MTK") Ownable() {}
+	constructor() ERC721("MyToken", "MTK") Ownable() {}
 
 	function safeMint(address to, string memory uri) public onlyOwner {
 		uint256 tokenId = _nextTokenId++;
@@ -33,7 +33,7 @@ contract MyNft is ERC721, ERC721URIStorage, Ownable {
 
 	function _burn(
 		uint256 tokenId
-	) internal virtual override(ERC721, ERC721URIStorage) {
-		return super._burn(tokenId);
+	) internal override(ERC721, ERC721URIStorage) {
+		super._burn(tokenId);
 	}
 }
