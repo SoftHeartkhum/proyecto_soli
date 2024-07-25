@@ -34,7 +34,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
 
   // Get the deployed contract to interact with it after deploying.
   const MyNft = await hre.ethers.getContract<Contract>("MyNFT", deployer);
-  console.log("👋 Initial greeting:", await MyNft.greetings());
+  console.log("👋 Initial greeting:", await MyNft.name());
 };
 
 export default deployYourContract;
