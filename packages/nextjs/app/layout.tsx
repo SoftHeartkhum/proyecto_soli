@@ -20,5 +20,4 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
     </html>
   );
 };
-
 export default ScaffoldEthApp;
