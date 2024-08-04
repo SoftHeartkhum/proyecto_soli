@@ -1,22 +1,82 @@
 [
   {
-    "imageUri": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-    "title": "Mono Aburrido",
-    "description": "Cualquier descirpin"
+    "description": "tigre",
+    "image": "ipfs://QmSKyYDvxakDqdk9ETpVjUqnuCJx1HS5ZAgQpytigLBybj",
+    "name": "Tigre",
+    "attributes": [
+      {
+        "trait_type": "Boca",
+        "valor": "hocico"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "paisaje"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "naranja"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "profundos"
+      },
+      {
+        "trait_type": "Piel",
+        "valor": "Con rayas"
+      }
+    ]
   },
   {
-    "imageUri": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-    "title": "Mono Aburrido",
-    "description": "Cualquier descirpin"
+    "description": "paisaje",
+    "image": "ipfs://QmcRw3eqoboCuH7b9RDLFECPmUhkdBFAWWFe5DBXM7UM31",
+    "name": "paisaje relajante",
+    "attributes": [
+      {
+        "trait_type": "montañas",
+        "valor": "nevadas"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "atardecer"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "cafe"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "pasto"
+      },
+      {
+        "trait_type": "Ropa",
+        "valor": "lago"
+      }
+    ]
   },
   {
-    "imageUri": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-    "title": "Mono Aburrido",
-    "description": "Cualquier descirpin"
-  },
-  {
-    "imageUri": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-    "title": "Mono Aburrido",
-    "description": "Cualquier descirpin"
+    "image": "ipfs://QmWQfLwXcbtETzoWp1uZb7J6TvYzEdmKnhAoguh3fW4xGb",
+    "name": "ave",
+    "attributes": [
+      {
+        "trait_type": "Boca",
+        "valor": "pico"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "jardin"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "cafe"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "cafes"
+      },
+      {
+        "trait_type": "Ropa",
+        "valor": "pluma"
+      }
+    ]
   }
 ]
