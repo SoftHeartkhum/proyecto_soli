@@ -19,7 +19,8 @@ contract MyNFT is ERC721, ERC721URIStorage, Ownable {
 	function mintInitialTokens() internal onlyOwner {
         _mintAndSetURI(0x90F79bf6EB2c4f870365E785982E1f101E93b906, "https://gateway.pinata.cloud/ipfs/QmSKyYDvxakDqdk9ETpVjUqnuCJx1HS5ZAgQpytigLBybj");
         _mintAndSetURI(0x70997970C51812dc3A010C7d01b50e0d17dc79C8, "https://gateway.pinata.cloud/ipfs/QmcRw3eqoboCuH7b9RDLFECPmUhkdBFAWWFe5DBXM7UM31");
-	    _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/QmWQfLwXcbtETzoWp1uZb7J6TvYzEdmKnhAoguh3fW4xGb");
+	    
+        _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/QmWQfLwXcbtETzoWp1uZb7J6TvYzEdmKnhAoguh3fW4xGb");
 		
 	}
 
@@ -64,5 +65,6 @@ contract MyNFT is ERC721, ERC721URIStorage, Ownable {
         _transfer(owner, msg.sender, tokenId);
     }
 }
+
 
 
