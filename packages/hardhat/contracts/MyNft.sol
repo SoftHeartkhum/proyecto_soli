@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Compatible with OpenZeppelin Contracts ^5.0.0
 pragma solidity ^0.8.20;
-
+//hola esta difici
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -21,7 +21,7 @@ contract MyNFT is ERC721, ERC721URIStorage, Ownable {
         _mintAndSetURI(0x70997970C51812dc3A010C7d01b50e0d17dc79C8, "https://gateway.pinata.cloud/ipfs/QmcRw3eqoboCuH7b9RDLFECPmUhkdBFAWWFe5DBXM7UM31");
 	    _mintAndSetURI(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC, "https://gateway.pinata.cloud/ipfs/QmWQfLwXcbtETzoWp1uZb7J6TvYzEdmKnhAoguh3fW4xGb");
 		
-    }
+	}
 
     function _mintAndSetURI(address to, string memory uri) internal {
         safeMint(to, uri);
@@ -64,3 +64,5 @@ contract MyNFT is ERC721, ERC721URIStorage, Ownable {
         _transfer(owner, msg.sender, tokenId);
     }
 }
+
+
