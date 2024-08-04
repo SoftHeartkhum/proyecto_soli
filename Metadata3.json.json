@@ -1,0 +1,27 @@
+{
+    "description": "Buho",
+    "image": "ipfs://QmWQfLwXcbtETzoWp1uZb7J6TvYzEdmKnhAoguh3fW4xGb",
+    "name": "ave",
+    "attributes": [
+      {
+        "trait_type": "Boca",
+        "valor": "pico"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "jardin"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "cafe"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "cafes"
+      },
+      {
+        "trait_type": "Ropa",
+        "valor": "pluma"
+      }
+    ]
+  }

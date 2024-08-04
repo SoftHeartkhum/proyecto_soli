@@ -1,0 +1,27 @@
+{
+    "description": "tigre",
+    "image": "ipfs://QmSKyYDvxakDqdk9ETpVjUqnuCJx1HS5ZAgQpytigLBybj",
+    "name": "Tigre",
+    "attributes": [
+      {
+        "trait_type": "Boca",
+        "valor": "hocico"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "paisaje"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "naranja"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "profundos"
+      },
+      {
+        "trait_type": "Piel",
+        "valor": "Con rayas"
+      }
+    ]
+  }

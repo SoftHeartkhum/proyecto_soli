@@ -1,0 +1,27 @@
+{
+    "description": "paisaje",
+    "image": "ipfs://QmcRw3eqoboCuH7b9RDLFECPmUhkdBFAWWFe5DBXM7UM31",
+    "name": "paisaje relajante",
+    "attributes": [
+      {
+        "trait_type": "montañas",
+        "valor": "nevadas"
+      },
+      {
+        "trait_type": "Fondo",
+        "valor": "atardecer"
+      },
+      {
+        "trait_type": "Cabello",
+        "value": "cafe"
+      },
+      {
+        "trait_type": "Ojos",
+        "valor": "pasto"
+      },
+      {
+        "trait_type": "Ropa",
+        "valor": "lago"
+      }
+    ]
+  }
